@@ -1,0 +1,365 @@
+/**app.wxss**/
+@import 'weui.wxss';
+button::after{
+  border: none;
+}
+.view_center{
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+  width: 100%;
+  height: 100%;
+}
+.page_hd{
+  padding:88rpx;
+  padding-top: 24rpx;
+  padding-bottom: 4rpx;
+}
+.page_title{
+  text-align:left;
+  font-size:46rpx;
+  font-weight:400
+}
+.page_desc {
+  margin-top:5px;
+  color:rgba(0, 0, 0, 0.5);
+  text-align:left;
+  font-size:13px
+}
+.title_margin{
+  padding-left: 8%;
+  padding-top: 7%;
+  clear:both;
+}
+.one_title_margin{
+  padding-left: 8%;
+  padding-top: 2%;
+  clear:both;
+}
+.title_pic{
+  margin-left: -3rpx; 
+  margin-bottom: -6rpx; 
+  margin-right: 5rpx; 
+  width: 50rpx;
+  height: 50rpx;
+}
+/* 底部说明文字 */
+.section_text {
+  text-align: left;
+  font-size: 22rpx;
+  margin-left: 60rpx;
+  margin-right: 60rpx;
+  color: rgba(0, 0, 0, 0.5);
+  left: 0;
+  right: 0;
+}
+/*二维码父亲*/
+.qrcode_view{
+  padding-top:20rpx;
+  padding-bottom: 30rpx; 
+}
+/*二维码图片*/
+.qrcode_img{
+  padding: 30rpx;
+  width: 440rpx;
+  height: 440rpx;
+}
+/*对比官方的title，改变了一点缩进*/
+.fresh_title_margin{
+  margin-left: 18rpx;
+  margin-top: -12rpx;
+  padding-left: 60rpx;
+  clear:both;
+}
+/*没有缩进title*/
+.center_title_margin{
+  margin-left: -20rpx;
+  margin-top: 0px;
+  clear:both;
+}
+/*没有缩进，没有头部负toptitle*/
+.ntop_center_title_margin{
+  margin-left: -20rpx;
+  clear:both;
+}
+/*上传图片div*/
+.upload_image_view{
+  margin-left: 60rpx;
+  margin-top: 30rpx;
+}
+/*上传图片背景*/
+.upload_image_background {
+  background-color: #f2f2f2;
+  height: 200rpx;
+  width: 200rpx;
+  border-radius: 12rpx;
+}
+/*上传图片*/
+.upload_image {
+  height: 200rpx; 
+  width: 200rpx;
+  border-radius: 12rpx;
+}
+/*input单行文本框*/
+.input{
+  width: 600rpx;
+  height: 80rpx;
+  background-color: #f2f2f2;
+  border-radius: 12rpx;
+  padding-left: 34rpx;
+}
+/*textarea多行文本框*/
+.textarea_view{
+  width: 566rpx;
+  height: 270rpx;
+  background-color: #f2f2f2;
+  border-radius: 12rpx;
+  padding-left: 34rpx;
+  padding-right: 34rpx;
+  padding-top: 30rpx;
+  padding-bottom: 20rpx;
+}
+/*自适应高度textarea多行文本框小圆角*/
+.textarea_view_l_radius{
+  width: 566rpx;
+  background-color: #f2f2f2;
+  border-radius: 12rpx;
+  margin-top: 40rpx;
+  padding-left: 34rpx;
+  padding-right: 34rpx;
+  padding-top: 30rpx;
+  padding-bottom: 20rpx;
+}
+/*自适应高度textarea多行文本框大圆角*/
+.textarea_view_radius{
+  width: 566rpx;
+  background-color: #f2f2f2;
+  border-radius: 12rpx;
+  padding-left: 34rpx;
+  padding-right: 34rpx;
+  padding-top: 30rpx;
+  padding-bottom: 20rpx;
+}
+/*单行行文本框大圆角*/
+.text_view_radius{
+  width: 566rpx;
+  background-color: #f2f2f2;
+  border-radius: 18rpx;
+  padding-left: 34rpx;
+  padding-right: 34rpx;
+  padding-top: 15rpx;
+  padding-bottom: 10rpx;
+}
+/*单行行文本框大圆角*/
+.text_view_l_radius{
+  width: 566rpx;
+  background-color: #f2f2f2;
+  border-radius: 12rpx;
+  padding-left: 34rpx;
+  padding-right: 34rpx;
+  padding-top: 15rpx;
+  padding-bottom: 10rpx;
+}
+/*按钮*/
+.diy_button{
+  width: 634rpx;
+  text-align:center;
+  margin-top: 20rpx; 
+  color: #fff;
+  background-color: #24c04f;
+  font-size:30rpx;
+  border-radius: 12rpx;
+}
+/*按钮点击时*/
+.diy_button:active{
+  width: 634rpx;
+  text-align:center;
+  margin-top: 20rpx; 
+  color: #fff;
+  background-color: #20aa46;
+  font-size:30rpx;
+  border-radius: 12rpx;
+}
+/*次要按钮*/
+.diy_button_secondary{
+  width: 634rpx;
+  text-align:center;
+  margin-top: 20rpx; 
+  color: #24c04f;
+  background-color: #f2f2f2;
+  font-size:30rpx;
+  border-radius: 12rpx;
+}
+/*次要按钮点击时*/
+.diy_button_secondary:active{
+  width: 634rpx;
+  text-align:center;
+  margin-top: 20rpx; 
+  color: #24c04f;
+  background-color: #d3d3d3;
+  font-size:30rpx;
+  border-radius: 12rpx;
+}
+/*我的页面按钮view*/
+.diy_myindex_button_view {
+  overflow: hidden;/*内容溢出隐藏*/
+  width: 634rpx;
+  background: #f2f2f2;
+  border-radius: 18rpx;
+}
+.button_view_border {
+  height: 3rpx;
+  width: 520rpx;
+  margin-left: 58rpx; 
+  background: #e0dede;
+}
+.myindex_button_left {
+  float:left;
+  text-align: left;
+}
+.myindex_button_right {
+  text-align: right;
+}  
+/*我的页面按钮*/
+.diy_myindex_button{
+  width: 634rpx;
+  margin-top: 4rpx; 
+  margin-bottom: 4rpx; 
+  color: #000;
+  background-color: #f2f2f2;
+  font-size:30rpx;
+  border-radius: 0rpx;
+}
+/*我的页面按钮点击时*/
+.diy_myindex_button:active{
+  width: 634rpx;
+  margin-top: 4rpx; 
+  margin-bottom: 4rpx; 
+  color: #fff;
+  background-color: #d3d3d3;
+  font-size:30rpx;
+  border-radius: 0rpx;
+}
+/* 按钮图标 */
+.button_logo {
+  height: 25rpx;
+  width: 25rpx;
+}
+/*双按钮，左边*/
+.diy_left_button{
+  width: 309rpx;
+  text-align:center;
+  margin-left: 60rpx;
+  margin-top: 20rpx; 
+  color: #fff;
+  background-color: #24c04f;
+  font-size:30rpx;
+  border-radius: 12rpx;
+}
+/*双按钮，左边点击时*/
+.diy_left_button:active{
+  width: 309rpx;
+  margin-left: 60rpx;
+  text-align:center;
+  margin-top: 20rpx; 
+  color: #fff;
+  background-color: #20aa46;
+  font-size:30rpx;
+  border-radius: 12rpx;
+}
+/*双按钮，右边*/
+.diy_right_button{
+  width: 309rpx;
+  margin-left: -46rpx;
+  text-align:center;
+  margin-top: 20rpx; 
+  color: #fff;
+  background-color: #24c04f;
+  font-size:30rpx;
+  border-radius: 12rpx;
+}
+/*双按钮，右边点击时*/
+.diy_right_button:active{
+  width: 309rpx;
+  margin-left: -46rpx;
+  text-align:center;
+  margin-top: 20rpx; 
+  color: #fff;
+  background-color: #20aa46;
+  font-size:30rpx;
+  border-radius: 12rpx;
+}
+/*次要双按钮，左边*/
+.diy_left_button_secondary{
+  width: 309rpx;
+  margin-left: 60rpx;
+  text-align:center;
+  margin-top: 20rpx; 
+  color: #24c04f;
+  background-color: #f2f2f2;
+  font-size:30rpx;
+  border-radius: 12rpx;
+}
+/*次要双按钮，左边点击时*/
+.diy_left_button_secondary:active{
+  width: 309rpx;
+  margin-left: 60rpx;
+  text-align:center;
+  margin-top: 20rpx; 
+  color: #24c04f;
+  background-color: #d3d3d3;
+  font-size:30rpx;
+  border-radius: 12rpx;
+}
+/*次要双按钮，右边*/
+.diy_right_button_secondary{
+  width: 309rpx;
+  margin-left: -46rpx;
+  text-align:center;
+  margin-top: 20rpx; 
+  color: #24c04f;
+  background-color: #f2f2f2;
+  font-size:30rpx;
+  border-radius: 12rpx;
+}
+/*次要双按钮，右边点击时*/
+.diy_right_button_secondary:active{
+  width: 309rpx;
+  margin-left: -46rpx;
+  text-align:center;
+  margin-top: 20rpx; 
+  color: #24c04f;
+  background-color: #d3d3d3;
+  font-size:30rpx;
+  border-radius: 12rpx;
+}
+/*头部图片背景*/
+.head_image_background {
+  overflow: hidden;/*内容溢出隐藏*/
+  width: 634rpx;
+  height: 357rpx;
+  background-color: #f2f2f2;
+  border-radius: 18rpx;
+}
+/*头部图片头顶间隙*/
+.head_image_height {
+  margin-top: 60rpx;
+}
+/*头部图片*/
+.head_image {
+  width: 634rpx;
+  height: 357rpx;
+}
+/*输入框和输入框之间的间隔*/
+.text_text_height{
+  height: 20rpx;
+}
+/*输入框和按钮之间的间隔*/
+.text_button_height{
+  height: 10rpx;
+}
+/*底部div间隙，防止有些手机的按钮贴近底部*/
+.bottom_div{
+  height: 50rpx;
+  /* background-color: #000; */
+}

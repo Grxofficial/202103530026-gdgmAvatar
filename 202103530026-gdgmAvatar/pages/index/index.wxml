@@ -1,0 +1,22 @@
+<!--pages/wechat_logo/wechat_logo.wxml-->
+<view>
+    <view class="page_hd">
+        <view class="page_title">头像小挂件</view>
+        <view class="page_desc"><text>给你的头像右下角加上工贸小logo</text></view>
+        <view class="page_desc"><text>点击下面上传图片，或者用你现在微信的头像</text></view>
+    </view>
+    <view class="text_text_height"></view>
+    <view class="text_text_height"></view>
+    <canvas canvas-id="myAvatar" class="canvas" bindtap="upload"></canvas>
+    <view>
+        <view class="text_text_height"></view>
+        <view class="text_text_height"></view>
+        <!-- <button class="btn-save" bindtap="upload">上传头像</button> -->
+        <view class="view_center">
+            <button class="diy_left_button" bindtap="getUserProfile">使用微信头像</button>
+            <button class="diy_right_button" disabled="{{ !save }}" bindtap="saveImg">保存到相册</button>
+        </view>
+        <!-- <button class='btn-save' open-type="getUserInfo" bindgetuserinfo="getUserInfo" type="submit">使用微信头像</button> -->
+        <!-- <button disabled="{{ !save }}" class="btn-save" bindtap="saveImg">保存到相册</button> -->
+    </view>
+</view>
