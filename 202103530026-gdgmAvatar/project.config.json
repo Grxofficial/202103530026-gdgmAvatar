@@ -1,0 +1,216 @@
+{
+  "description": "项目配置文件",
+  "cloudfunctionRoot": "cloud/functions/",
+  "packOptions": {
+    "ignore": []
+  },
+  "setting": {
+    "urlCheck": true,
+    "es6": true,
+    "enhance": false,
+    "postcss": true,
+    "preloadBackgroundData": false,
+    "minified": true,
+    "newFeature": true,
+    "coverView": true,
+    "nodeModules": false,
+    "autoAudits": false,
+    "showShadowRootInWxmlPanel": true,
+    "scopeDataCheck": false,
+    "uglifyFileName": false,
+    "checkInvalidKey": true,
+    "checkSiteMap": true,
+    "uploadWithSourceMap": true,
+    "compileHotReLoad": false,
+    "lazyloadPlaceholderEnable": false,
+    "useMultiFrameRuntime": true,
+    "useApiHook": true,
+    "useApiHostProcess": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "enableEngineNative": false,
+    "useIsolateContext": true,
+    "userConfirmedBundleSwitch": false,
+    "packNpmManually": false,
+    "packNpmRelationList": [],
+    "minifyWXSS": true,
+    "disableUseStrict": false,
+    "showES6CompileOption": false,
+    "useCompilerPlugins": false,
+    "minifyWXML": true
+  },
+  "compileType": "miniprogram",
+  "libVersion": "2.24.2",
+  "appid": "wxab6c9b0c7fee073d",
+  "projectname": "gdgmAvatar",
+  "debugOptions": {
+    "hidedInDevtools": []
+  },
+  "isGameTourist": false,
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
+  "condition": {
+    "search": {
+      "list": []
+    },
+    "conversation": {
+      "list": []
+    },
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "currentL": -1,
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "id": -1,
+          "name": "wifi",
+          "pathName": "pages/qrcode_wifi/qrcode_wifi",
+          "query": "",
+          "scene": 1001
+        },
+        {
+          "id": 1,
+          "name": "qrcode_text",
+          "pathName": "pages/qrcode_text/qrcode_text",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "study",
+          "pathName": "pages/qrcode_scanning/qrcode_scanning",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": 3,
+          "name": "pornhub_style",
+          "pathName": "pages/pz_style/pz_style",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/image_web/image_web",
+          "pathName": "pages/image_web/image_web",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/image_ocr/image_ocr",
+          "pathName": "pages/image_ocr/image_ocr",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/string_base64/string_base64",
+          "pathName": "pages/string_base64/string_base64",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/myindex/myindex",
+          "pathName": "pages/myindex/myindex",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/opinion/opinion",
+          "pathName": "pages/opinion/opinion",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/msg/msg",
+          "pathName": "pages/msg/msg",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": 10,
+          "name": "pages/today/today",
+          "pathName": "pages/today/today",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/long_to_short/long_to_short",
+          "pathName": "pages/long_to_short/long_to_short",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/about/about",
+          "pathName": "pages/about/about",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/morse_code/morse_code",
+          "pathName": "pages/morse_code/morse_code",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/management/management",
+          "pathName": "pages/management/management",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": 15,
+          "name": "pages/opinion_show/opinion_show",
+          "pathName": "pages/opinion_show/opinion_show",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/marketing_copy/marketing_copy",
+          "pathName": "pages/marketing_copy/marketing_copy",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/marketing_copy/marketing_copy",
+          "pathName": "pages/marketing_copy/marketing_copy",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/character_length/character_length",
+          "pathName": "pages/character_length/character_length",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/wechat_logo/wechat_logo",
+          "pathName": "pages/wechat_logo/wechat_logo",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,32 @@
+/* pages/myindex/myindex.wxss */
+.image_logo_name{
+  position: relative;
+}
+.logo_image_background {
+  position: absolute;
+  top: 65rpx;
+  overflow: hidden;/*内容溢出隐藏*/
+  border:6rpx solid #fff;
+  background: #fff;
+  border-radius: 80rpx;
+  height: 160rpx;
+  width: 160rpx;
+  /* box-shadow: 4rpx 4rpx 3rpx #aca9a9; */
+}
+.name {
+  font-size: 34rpx;
+  color: #fff;
+  font-weight: 800;
+  position: absolute;
+  top: 255rpx;
+}
+/*公告view*/
+.announcement{
+  width: 566rpx;
+  background-color: #f2f2f2;
+  border-radius: 18rpx;
+  padding-left: 34rpx;
+  padding-right: 34rpx;
+  padding-top: 30rpx;
+  padding-bottom: 20rpx;
+}
